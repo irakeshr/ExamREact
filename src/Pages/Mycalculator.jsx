@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'; // Keep this import
  
 
  
-const Calculator = () => {
+const Mycalculator = () => {
  
   const [expression, setExpression] = useState('');
   const [result, setResult] = useState('0');
@@ -78,4 +78,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default Mycalculator;
